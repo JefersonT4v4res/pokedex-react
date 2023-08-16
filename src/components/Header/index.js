@@ -1,21 +1,22 @@
 import React from "react";
+import Image from "next/image";
 import { StyledHeader } from "./styles";
-import Logo from "../../public/images/image 5.png";
+import Logo from "../../assets/images/pokemon_logo.svg";
 
+export default function Header({theme}) {
 
-export default function Header() {
     return (
        <StyledHeader>
-        <Logo />
-            <div class="container_SwitchTheme">
-                <div class="rectangle red"> </div>
-                    <div class="rectangle gray"> 
-                        <div class="themes icon" id="sun"> </div>
-                        <div class="themes icon" id="moon"> </div>
-                        <div class="themes icon" id="classic"> </div>
-                        <div class="themes icon" id="ghost"> </div>
+            <Image src={Logo} className="Logo" />
+            <div className="container_SwitchTheme">
+                <div className="rectangle red"> </div>
+                    <div className="rectangle gray"> 
+                        <div className="themes icon" id="sun"> </div>
+                        <div className="themes icon" id="moon"> </div>
+                        <div className="themes icon" id="classic"> </div>
+                        <div className="themes icon" id="ghost"> </div>
                     </div>
-                <div class="rectangle white"> </div>
+                <div className="rectangle white"> </div>
             </div>
        </StyledHeader>
     )

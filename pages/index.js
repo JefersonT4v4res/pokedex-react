@@ -9,9 +9,9 @@ export default function Page() {
    const [theme, setTheme] = useState(light);
 
     return (
-        <ThemeProvider theme={light}> 
+        <ThemeProvider theme={theme}> 
             <GlobalStyle />
-            <Header />
+            <Header theme={theme} />
         </ThemeProvider>
 
     )

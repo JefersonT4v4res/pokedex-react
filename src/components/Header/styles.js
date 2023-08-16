@@ -9,7 +9,9 @@ export const StyledHeader = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    
-    
+    .logoPokemon {
+        width: 9.5rem;
+        height: 3.125rem;
+    }
 
 `
