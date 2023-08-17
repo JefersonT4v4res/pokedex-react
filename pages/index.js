@@ -5,7 +5,7 @@ import { ThemeProvider } from "styled-components";
 import light from "../src/styles/themes/light"
 import Header from "../src/components/Header/index";
 
-export default function Page() {
+export default function Home() {
    const [theme, setTheme] = useState(light);
 
     return (
