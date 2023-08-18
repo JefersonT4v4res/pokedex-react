@@ -12,7 +12,7 @@ export default function Header({theme}) {
 
     return (
        <StyledHeader>
-            <Image src={Logo} className="Logo" />
+            <Image src={Logo} className="logo" />
             <ButtonTheme />
            
        </StyledHeader>
