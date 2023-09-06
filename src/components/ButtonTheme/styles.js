@@ -5,13 +5,13 @@ export const StyledBtnThemeContainer = styled.div`
     width: 5rem;
     height: 5rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 
     .lid, .base {
         width: 2.5rem;
-        height: 2.5rem;
+        height: 1.5rem;
         z-index: 3;
     }
 
@@ -19,10 +19,10 @@ export const StyledBtnThemeContainer = styled.div`
         box-sizing: border-box;
         width: 2.1rem;
         height: 4.1rem;
-        background: #434A54;
+        background: #252525;
         z-index: 2;
         position: absolute;
-        top: 16px;
+        top: 9px;
         border-radius: 15px;
         border: 0.1px solid #000;
         display: flex;
@@ -30,11 +30,10 @@ export const StyledBtnThemeContainer = styled.div`
         justify-content: center;
         align-items: center;
         gap: 0.3rem;
-        transition: height 0.5s;
+        transition: height .5s ease-in-out;
     }
 
-
-    .containerThemes:hover {
+    .containerThemes:hover  {
         height: 11rem;
     }
 
@@ -42,27 +41,31 @@ export const StyledBtnThemeContainer = styled.div`
         z-index: 3;
         width: 1.5rem;
         height: 1.7rem;
+        opacity: 0;
+        overflow: hidden;
         display: none;
-        transition: display .8s ease-in-out;
+        transition: opacity 1.5s ease-in-out;
     }
 
     .containerThemes:hover .themes {
+        opacity: 1;
         display: flex;
     }
 
-    #sun {
-        display: flex ;
+    .active {
+        display: flex;
+        opacity: 1;
     }
 
     .base {
         margin-top: 5px;
         position: relative;
-        top: 7px;
-        transition: top 0.5s;
+        top: 22px;
+        transition: top 0.5s ease-in-out;
     }
 
     .containerThemes:hover + .base {
-       top: 118px;
+       top: 130px;
     }
 
 `

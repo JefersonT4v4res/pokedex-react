@@ -4,7 +4,7 @@ export const StyledHeader = styled.div`
     
     width: 100%;
     height: 90px;
-    padding: 10px;
+    padding: 7px;
     background: gray;
     display: flex;
     justify-content: space-between;
