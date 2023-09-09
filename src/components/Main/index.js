@@ -1,9 +1,13 @@
 import { StyledMain } from "./styles";
 
-export default function ButtonTheme() {
+import Card  from "./Card/index";
+
+export default function MainContent() {
     return (
         <StyledMain >
-           
+           <Card/>
+           <Card/>
+           <Card/>
         </StyledMain>
     )
 }
