@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { StyledBtnThemeContainer } from "./styles";
 
-import Lid from "../../assets/images/Lib poke.svg";
-import Base from "../../assets/images/Lower Cap.svg";
-import Sun from "../../assets/images/sun.svg";
-import Moon from "../../assets/images/moon.svg";
-import Classic from "../../assets/images/classic.svg";
-import Ghost from "../../assets/images/ghost.svg";
+import Lid from "../../../assets/images/Lib poke.svg";
+import Base from "../../../assets/images/Lower Cap.svg";
+import Sun from "../../../assets/images/sun.svg";
+import Moon from "../../../assets/images/moon.svg";
+import Classic from "../../../assets/images/classic.svg";
+import Ghost from "../../../assets/images/ghost.svg";
 
 export default function ButtonTheme() {
     return (
