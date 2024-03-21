@@ -14,7 +14,7 @@ export default function Home() {
         <ThemeProvider theme={theme}> 
             <GlobalStyle />
             <Header theme={theme} />
-            <Main />
+            {/* <Main />  */}
         </ThemeProvider>
 
     )

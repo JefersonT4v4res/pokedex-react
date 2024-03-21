@@ -1,10 +1,9 @@
-export async function CatchPokeList(setPokemon) {
+export async function CatchPokeList() {
   try {
-    const response = await fetch('http://localhost:8080/pokemons');
+    const response = await fetch('https://pokedexapi-gamma.vercel.app/pokemons');
     const jsonData = await response.json();
-    setPokemon(jsonData);
+    return jsonData.pokelist;
 
-   
   } catch (error) {
     console.error('Erro ao buscar dados da API:', error);
   }
