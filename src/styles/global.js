@@ -12,10 +12,6 @@ body {
     background-color: #C1C1C1;
 }
 
-p {
-     background-color: #cacaca;
-}
-
 ul {
     list-style: none;
 }
