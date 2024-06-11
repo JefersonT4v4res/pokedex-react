@@ -4,7 +4,7 @@ import { CatchPokeList } from '../../utils/Api/api';
 
 export default function Card() {
     const [pokemon, setPokemon] = useState([]);
-    const [quantityDisplayed, setQuantityDisplayed] =useState(10);
+    const [quantityDisplayed, setQuantityDisplayed] = useState(10);
       
     useEffect(() => {
 
