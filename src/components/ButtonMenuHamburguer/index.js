@@ -2,7 +2,7 @@ import React from "react";
 
 import { StyledBtnBurgerMenu } from "./styles";
 
-export default function BtnBurgerMenu({theme}) {
+export default function BtnBurgerMenu() {
 
     return (
        <StyledBtnBurgerMenu>

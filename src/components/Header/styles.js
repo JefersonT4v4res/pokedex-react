@@ -12,7 +12,7 @@ export const StyledHeader = styled.div`
     box-sizing: border-box;
 
     .logo {
-        width: 7.5rem;
+        width: 7rem;
         height: 3.125rem;
     }
 
